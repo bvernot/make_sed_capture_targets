@@ -7,9 +7,9 @@ This Python script queries an ENSEMBL database, and infers mammalian diversity i
 The script takes three files:
 1. An alleles file giving the chromosome, position, and both expected alleles.
 1. A bed file with information on repeats in the region. This file is not actually used in this step but the last three columns are:
-⋅⋅* Number of bases in a window (in this case 104 bases) that are covered by simple repeats.
-..* Number of bases in a window (in this case 104 bases) that are _unmasked_ by the Heng Li 35mer mask.
-..* Is the target base masked by _unmasked_ by the Heng Li 35mer mask? (0 or 1)
+    * Number of bases in a window (in this case 104 bases) that are covered by simple repeats.
+    * Number of bases in a window (in this case 104 bases) that are _unmasked_ by the Heng Li 35mer mask.
+    * Is the target base masked by _unmasked_ by the Heng Li 35mer mask? (0 or 1)
 1. Sites from the "ape" file, as defined here: https://dx.doi.org/10.17617/3.5h
 
 ```
