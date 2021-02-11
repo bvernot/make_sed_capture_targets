@@ -12,6 +12,7 @@ The script takes three files:
 ..* Is the target base masked by _unmasked_ by the Heng Li 35mer mask? (0 or 1)
 1. Sites from the "ape" file, as defined here: https://dx.doi.org/10.17617/3.5h
 
+```
     $ head snps.alleles
     1       752675  T       C
     1       812425  G       A
@@ -52,6 +53,7 @@ The script takes three files:
     python3.5 query_ensembl_for_sites.py 25 52 \
                           snps.alleles snps.rpt_map snps.ape \
                           > snps.txt
-                          
+```                          
+
 This file contains a lot of debugging information - but to get a table of capture sites, grep for lines that include REPORT.
 
