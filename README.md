@@ -52,7 +52,7 @@ The script takes three files:
 
     python3.5 query_ensembl_for_sites.py 25 52 \
                           snps.alleles snps.rpt_map snps.ape \
-                          > snps.txt
+                          > snps.report.txt
 ```                          
 
 This file contains a lot of debugging information - but to get a table of capture sites, grep for lines that include REPORT.
